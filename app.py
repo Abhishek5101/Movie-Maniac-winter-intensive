@@ -6,6 +6,7 @@ from forms import RegistrationForm, LoginForm
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '567fbdf4643402c860b90b823a57df29'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
 

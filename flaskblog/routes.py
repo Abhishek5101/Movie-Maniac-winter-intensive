@@ -9,12 +9,12 @@ import json
 TMDB_API_KEY = '23efb496361ed8a18ef9bc9238bf5c14'
 
 
-# @app.route('/')
-# def home():
-# 	return render_template('index.html')
+@app.route('/')
+def home():
+	return render_template('index.html')
 
 
-@app.route("/", methods=['GET', 'POST'])
+@app.route("/register", methods=['GET', 'POST'])
 def register():
 	if current_user.is_authenticated:
 		return redirect(url_for('home'))

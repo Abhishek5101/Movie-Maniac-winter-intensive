@@ -11,7 +11,6 @@ body {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	width: 900px;
 	margin: 0 auto;
 }
 
@@ -25,7 +24,6 @@ body {
 	font-family: Arial, Sans-Serif;
 	width: 400px;
 	height: 600px;
-	color: white;
 	display: inline-block;
 	margin: 10px;
 }
@@ -66,7 +64,6 @@ body {
 .card .back {
 	font-size: 18px;
 	line-height: 1.4em;
-	background: url(http://imagesci.com/img/2013/12/space-stars-background-3245-hd-wallpapers.jpg) #333333;
 	background-size: cover;
 	color: #FFE81F;
 }
@@ -76,6 +73,8 @@ body {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	border-bottom: 3px double #FFE81F;
+	position: relative;
+	z-index:1;
 }
 
 .card .back .description {
@@ -130,7 +129,6 @@ body {
 }
 
 .darth .front {
-	background-image: url(http://orig05.deviantart.net/a70d/f/2013/326/0/c/darth_vader_by_6kart-d6v8x3c.jpg);
 	background-size: 130%;
 	background-position: 50% 50%;
 	transition: background 0.3s;
@@ -167,4 +165,11 @@ body {
 
 .mememe a:visited {
 	color: #eeff44;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 100vw;
 }

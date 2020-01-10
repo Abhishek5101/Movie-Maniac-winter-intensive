@@ -6,6 +6,7 @@
             <input class="form-control form-control-lg" type="search" name="search" placeholder="Search for movies!!!" aria-label="Search">
     </form>
 </div>
+<div class="container">
 {% for result in results %}
 
 <div class="card darth">
@@ -13,8 +14,11 @@
     <img class="logo" src="{{ url_for('static', filename='images/tmd.png') }}" />
     <h2><small>{{ result['title'] }}</small><br/></h2>
     <cite>
+
       <a href="https://image.tmdb.org/t/p/w300{{ result['poster_path'] }}" target="_blank">Vader Image by 6Kart</a>
     </cite>
+     <img src="https://image.tmdb.org/t/p/w300{{ result['poster_path'] }}" alt="Image of Darth Vader" />
+
   </div>
   <div class="face back">
     <img src="https://image.tmdb.org/t/p/w300{{ result['poster_path'] }}" alt="Image of Darth Vader" />
@@ -25,5 +29,6 @@
 
 <!--<img  class="img-fluid img-in" src="https://image.tmdb.org/t/p/w300{{ result['poster_path'] }}" alt="">-->
 {% endfor %}
+</div>
 
 {% endblock %}

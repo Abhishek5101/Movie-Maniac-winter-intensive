@@ -29,7 +29,7 @@ To install `pipenv` use `homebrew`
  
  `pipenv shell` into the project directory
 
-#Contribution Guidelines
+# Contribution Guidelines
 ### Any contributions you make will be under the GNU Public Software License
 
 In short, when you submit code changes, your submissions are understood to be under the same [GNU Public](https://choosealicense.com/licenses/agpl-3.0/) that covers the project.

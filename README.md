@@ -16,3 +16,29 @@ The goal is to create a platform for people who have similar interests in movies
 * [PostgreSQL](https://www.postgresql.org/) - Production database
 * [The MovieDB API](https://www.themoviedb.org/documentation/api) - API used to get the list of movies
 * [Heroku] (https://www.heroku.com/) - Cloud Application service provider
+
+
+#Installation Guidelines
+We use `pipenv` to manage our virtual environment and packages
+
+To install `pipenv` use `homebrew`
+
+`brew install pipenv` 
+ 
+ To activate the virtual environment:
+ 
+ `pipenv shell` into the project directory
+
+#Contribution Guidelines
+### Any contributions you make will be under the GNU Public Software License
+
+In short, when you submit code changes, your submissions are understood to be under the same [GNU Public](https://choosealicense.com/licenses/agpl-3.0/) that covers the project.
+
+### Use [Github Flow](https://guides.github.com/introduction/flow/index.html)
+
+
+1. Create your branch different from `master`.
+2. Add commits
+3. Open A Pull request
+4. Discuss and review your code
+5. Deploy

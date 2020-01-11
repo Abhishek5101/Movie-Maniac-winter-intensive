@@ -18,7 +18,7 @@ The goal is to create a platform for people who have similar interests in movies
 * [Heroku] (https://www.heroku.com/) - Cloud Application service provider
 
 
-#Installation Guidelines
+# Installation Guidelines
 We use `pipenv` to manage our virtual environment and packages
 
 To install `pipenv` use `homebrew`
